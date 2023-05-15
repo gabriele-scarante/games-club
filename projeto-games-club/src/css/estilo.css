@@ -1,0 +1,93 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #01295e;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  margin: 30px;
+}
+
+input {
+  display: block;
+  background: #f9f9f9;
+  border: 1px solid;
+  border-radius: 5px;
+  height: 50px;
+  width: 352px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  display: block;
+  background: #f9f9f9;
+  border: 1px solid;
+  border-radius: 5px;
+  height: 100px;
+  width: 352px;
+  margin-bottom: 20px;
+}
+
+form {
+  background: white;
+  padding: 20px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  opacity: 0; /* formulário sumido no início, JS irá revelá-lo */
+transition: opacity 0.6s;
+}
+
+button {
+  background: #40bb15;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  width: 174px;
+  cursor: pointer;
+  color: #f9f9f9;
+}
+
+.contato {
+    background: #000080;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+ .voltar {
+    background: gray;
+  }
+
+form .nome, .e-mail, .duvida-aqui {
+    padding: 10px;
+}
+
+div {
+    transition: opacity 0.6s;
+}
+
+
+   
